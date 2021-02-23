@@ -4,7 +4,7 @@ services:
 #    build:
 #      context: .
 #      dockerfile: .docker/Dockerfile
-    image: 'uvs-vote'
+    image: '37.59.48.5:5000/yabsambaye/myweb'
     ports:
       - 8002:80
     volumes:
